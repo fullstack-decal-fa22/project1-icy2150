@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#title {
+    text-align: left;
+    margin: 260px 10px 10px 250px;
+    font-size: 50px;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.double-gradient {
+    display: grid;
+    place-items: center;
+    opacity: 0.7;
+    height: 400px;
+    width: 2000px;
+    background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 0.1) 100%), linear-gradient(90deg, #84d2ff, #8d5acd);
+}
+
+  .double-gradient2 {
+    display: grid;
+    opacity: 0.7;
+    height: 700px;
+    width: 2000px;
+    background: linear-gradient(rgba(251, 251, 251, 0.1) 0%, rgba(255, 255, 255, 1) 100%), linear-gradient(90deg, #84d2ff, #8d5acd);
+}
